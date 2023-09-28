@@ -1,36 +1,50 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--NAVY-BLUE, #2e2f42);
 }
-
+.filter-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.list-without-bullet-point {
+  list-style-type: none;
+  text-decoration: none;
+}
+.filter-nav:hover,
+.filter-nav:focus {
+  color: var(--WHITE, #fff);
+  background-color: var(--OCEAN, #404bbf);
+  cursor: pointer;
+  text-decoration: none;
+}
 .filters-list {
   color: var(--CORNFLOWER, #e7e9fc);
   list-style-type: none;
 }
-
 .filter-button {
   color: var(--IRIS, #4d5ae5);
   background-color: var(--CORNFLOWER, #e7e9fc);
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
-
 .filters-list .filter-button:hover,
 .filters-list .filter-button:focus {
   color: var(--WHITE, #fff);
   background-color: var(--OCEAN, #404bbf);
   cursor: pointer;
 }
-
 .main-title-background {
+  color: var(--WHITE, #fff);
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
 .branding-header {
   color: var(--WHITE, #fff);
 }
-.logo {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
+.filter-single-button {
+  color: var(--WHITE, #fff);
+  background: var(--IRIS, #4d5ae5);
 }
