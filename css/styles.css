@@ -1,11 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: (--white);
+  background-color: var(--white);
   color: var(--body);
 }
 :root {
-  --body: #434455;
   --white: #ffffff;
+  --body: #434455;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
@@ -34,7 +34,7 @@ body {
   list-style: none;
 }
 .list-first {
-  color: var(--studio);
+  color: var(--body);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -81,12 +81,12 @@ body {
   letter-spacing: 0.02em;
 }
 .second-header {
+  color: var(--studio);
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--studio);
+  text-align: center;
 }
 .filter-team-background {
   background-color: var(--cloud);
