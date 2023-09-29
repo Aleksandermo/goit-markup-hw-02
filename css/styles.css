@@ -133,3 +133,11 @@ body {
   color: var(--body);
   font-style: normal;
 }
+.filter-address:hover {
+  color: var(--ocean);
+}
+.filter-address:focus,
+.filter-address:visited {
+  color: var(--ocean);
+  cursor: pointer;
+}
