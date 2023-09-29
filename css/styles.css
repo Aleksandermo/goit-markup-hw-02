@@ -11,6 +11,9 @@ body {
   --cloud: #f4f4fd;
   --studio: #2e2f42;
 }
+nav li:first-child {
+  color: var(--studio);
+}
 .logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
