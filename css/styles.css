@@ -130,5 +130,6 @@ body {
   cursor: pointer;
 }
 .filter-address {
+  color: var(--body);
   font-style: normal;
 }
