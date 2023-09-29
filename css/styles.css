@@ -5,7 +5,7 @@ body {
 }
 :root {
   --body: #434455;
-  --white: #fff;
+  --white: #ffffff;
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
@@ -34,14 +34,15 @@ body {
   list-style: none;
 }
 .list-first {
-  color: var(--body);
+  color: var(--studio);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .filter-nav:hover,
-.filter-nav:focus {
+.filter-nav:focus,
+.filter-nav:visited {
   color: var(--ocean);
   cursor: pointer;
 }
@@ -58,15 +59,16 @@ body {
 }
 .filter-single-button {
   font-family: "Roboto", sans-serif;
-  color: var(--iris);
-  background-color: var(--cloud);
+  color: var(--white);
+  background-color: var(--iris);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
 }
 .filter-single-button:hover,
-.filter-single-button:focus {
+.filter-single-button:focus,
+.filter-single-button:visited {
   color: var(--white);
   background-color: var(--ocean);
   cursor: pointer;
@@ -99,11 +101,16 @@ body {
 }
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
   color: var(--iris);
-  background-color: var(--CORNFLOWER);
-  border: 1px solid var(--CORNFLOWER);
+  background-color: var(--cloud);
 }
 .filter-button:hover,
+.filter-button:focus,
 .filter-button:focus {
   color: var(--white);
   background-color: var(--ocean);
