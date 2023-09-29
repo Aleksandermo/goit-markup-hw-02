@@ -130,7 +130,6 @@ body {
   cursor: pointer;
 }
 .filter-address {
-  color: var(--body);
   font-style: normal;
 }
 .filter-address:hover {
@@ -140,4 +139,7 @@ body {
 .filter-address:visited {
   color: var(--ocean);
   cursor: pointer;
+}
+.address {
+  color: var(--body);
 }
