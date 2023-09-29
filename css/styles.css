@@ -10,7 +10,6 @@ body {
   --ocean: #404bbf;
   --cloud: #f4f4fd;
   --studio: #2e2f42;
-  --CORNFLOWER: #e7e9fc;
 }
 .logo {
   color: var(--iris);
@@ -40,6 +39,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .list-first {
   color: var(--body);
   font-weight: 500;
@@ -49,7 +49,7 @@ body {
 }
 
 .filter-nav {
-  color: var(--studio);
+  color: var(--body);
 }
 .filter-nav:hover {
   color: var(--ocean);
@@ -128,6 +128,6 @@ body {
   background-color: var(--ocean);
   cursor: pointer;
 }
-.filter-adress {
+.filter-address {
   font-style: normal;
 }
