@@ -33,6 +33,13 @@ body {
 .list {
   list-style: none;
 }
+.list-studio {
+  color: var(--studio);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .list-first {
   color: var(--body);
   font-weight: 500;
@@ -40,7 +47,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.filter-nav:hover,
+
+.filter-nav {
+  color: var(--studio);
+}
+.filter-nav:hover {
+  color: var(--ocean);
+}
 .filter-nav:focus,
 .filter-nav:visited {
   color: var(--ocean);
