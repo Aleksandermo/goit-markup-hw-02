@@ -11,9 +11,7 @@ body {
   --cloud: #f4f4fd;
   --studio: #2e2f42;
 }
-nav li:first-child {
-  color: var(--studio);
-}
+
 .logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
@@ -52,7 +50,7 @@ nav li:first-child {
 }
 
 .filter-nav {
-  color: var(--body);
+  color: var(--studio);
 }
 .filter-nav:hover {
   color: var(--ocean);
